@@ -1,0 +1,15 @@
+<div>
+  <div class="row">
+    <div class="col-xs-1 text-center"><strong class="orderFlightRow">${order}</strong></div>
+    <div class="col-xs-5">
+      <input type="text" autofocus class="form-control departureNode" data-dojo-attach-point="departureNode" placeholder="Departure" value="${departure}" name="flights[${index}]['departure']['destination']">
+    </div>
+    <div class="col-xs-5">
+      <input type="text" autofocus class="form-control arrivalNode" data-dojo-attach-point="arrivalNode" placeholder="Arrival" value="${arrival}" name="flights[${index}]['arrival']['destination']">
+    </div>
+    <div class="col-xs-1">
+      <button class="btn btn-danger ${canRemoveFlight}" data-dojo-attach-event="onclick:removeFlight">&times;</button>
+    </div>
+  </div>
+  <p></p>
+</div>

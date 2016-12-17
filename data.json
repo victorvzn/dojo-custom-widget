@@ -1,0 +1,38 @@
+{
+  "flights": [
+    {
+      "number": "111",
+      "title": "Dreamed flight Ica",
+      "description": "Dreamed flight Ica",
+      "photo": "http://lorempicsum.com/futurama/294/165/2",
+      "price": "11",
+      "departure": {
+        "destination": "Chiclayo",
+        "date": "2016-12-19",
+        "time": "T02:45:00"
+      },
+      "arrival": {
+        "destination": "Lima",
+        "date": "2016-12-22",
+        "time": "T02:30:00"
+      }
+    },
+    {
+      "number": "",
+      "title": "",
+      "description": "",
+      "photo": "",
+      "price": "0",
+      "departure": {
+        "destination": "Lima",
+        "date": "2016-12-22",
+        "time": "T02:45:00"
+      },
+      "arrival": {
+        "destination": "Chiclayo",
+        "date": "2016-12-26",
+        "time": "T02:30:00"
+      }
+    }
+  ]
+}
