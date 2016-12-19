@@ -2,6 +2,9 @@
 
 Sample app based on Dojo.js with custom widgets.
 
+### Demo:
+https://victorvzn.github.io/dojo-custom-widget/
+
 References:
 
 https://dojotoolkit.org/documentation/tutorials/1.10/templated/index.html
