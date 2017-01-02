@@ -1,0 +1,12 @@
+{
+    "name": "dojo-custom-widget",
+    "description": "Sample app based on Dojo.js with custom widgets and dojo builds.",
+    "version": "0.1.0",
+    "dependencies": {
+        "dojo": "~1.10.4",
+        "dijit": "~1.10.4",
+        "dojox": "~1.10.4"
+    },
+    "main": "src",
+    "dojoBuild": "app.profile.js"
+}

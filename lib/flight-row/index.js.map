@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"index.js",
+"lineCount":4,
+"mappings":"A;AAAAA,OAAA,SACA,8BADA,kgCAEAC;MAAA,oBAA2B,6MAAA,MAAA,KAA3B,CAeG,QAAA,CAASC,CAAT,CAAkBC,CAAlB,CAAwBC,CAAxB,CAAiCC,CAAjC,CAAyCC,CAAzC,CAAmDC,CAAnD,CAAiEC,CAAjE,CAAwEC,CAAxE,CAA+EC,CAA/E,CAAmFC,CAAnF,CAA0FC,CAA1F,CAA8FC,CAA9F,CAA2GC,CAA3G,CAA4HC,CAA5H,QAEMb,EAAA,cAAsBW,CAAtB,CAAmCC,CAAnC,kBAEWC,CAFX,oGAaQC,QAAAA,CAASC,CAATD,CAAiBE,CAAjBF,GAbR,YAiBOG,QAAAA,IAjBP,cAoBSC,QAAAA,CAAUC,CAAVD,EACZC,CAAAC,eAAA,EAIAf;CAAAgB,QAAA,CAHiBC,YAAAC,GAGjB,CACAd,EAAAe,QAAA,gBANYN,CApBT,EAFN,CAfH;",
+"sources":["index.js.uncompressed.js"],
+"names":["require","define","declare","dojo","request","parser","domClass","domConstruct","ready","query","on","topic","fx","_WidgetBase","_TemplatedMixin","template","constructor","params","srcNodeRef","postCreate","removeFlight","event","preventDefault","destroy","domNode","id","publish"]
+}

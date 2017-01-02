@@ -7,7 +7,11 @@
   <script>
   var dojoConfig = {
     async: true,
-    packages: [{ name: "app", location: location.pathname.replace(/\/[^/]*$/, '') + "/app" }]
+    packages: [
+      { name: "app", location: location.pathname.replace(/\/[^/]*$/, '') + "/lib/app" },
+      { name: "flight-pane", location: location.pathname.replace(/\/[^/]*$/, '') + "/lib/flight-pane" },
+      { name: "flight-row", location: location.pathname.replace(/\/[^/]*$/, '') + "/lib/flight-row" },
+    ]
   };
   </script>
 </head>
@@ -17,6 +21,6 @@
   
   <script src="//ajax.googleapis.com/ajax/libs/dojo/1.10.4/dojo/dojo.js"
           data-dojo-config="async: true"></script>
-  <script src="app/app.js"></script>
+  <script src="lib/app/index.js"></script>
 </body>
 </html>

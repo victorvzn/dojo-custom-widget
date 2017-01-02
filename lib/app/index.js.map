@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"index.js",
+"lineCount":2,
+"mappings":"A;AAAAA,OAAA,oDAA8D,QAAA,CAAUC,CAAV,CAAkBC,CAAlB,CAA2BC,CAA3B,EAe5DD,CAAAE,IAAA,aAAAC,KAAA,CAXcC,QAAAA,CAASC,CAATD,EACRE,CADQF,CACDG,IAAAC,MAAA,CAAWH,CAAX,CACMI,EAAA,IAAIR,CAAJ,OAAsBK,CAAtB,EAAAG,SAAA,uBAFLL,CAWd,CAJYM,QAAAA,CAASA,CAATA,GAIZ,CAf4D,CAA9D;",
+"sources":["index.js.uncompressed.js"],
+"names":["require","parser","request","FlightPane","get","then","success","response","data","JSON","parse","placeAt","error"]
+}
