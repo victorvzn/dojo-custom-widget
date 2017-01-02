@@ -8,9 +8,9 @@
   var dojoConfig = {
     async: true,
     packages: [
-      { name: "app", location: location.pathname.replace(/\/[^/]*$/, '') + "/lib/app" },
-      { name: "flight-pane", location: location.pathname.replace(/\/[^/]*$/, '') + "/lib/flight-pane" },
-      { name: "flight-row", location: location.pathname.replace(/\/[^/]*$/, '') + "/lib/flight-row" },
+      { name: "app", location: location.pathname.replace(/\/[^/]*$/, '') + "/src/app" },
+      { name: "flight-pane", location: location.pathname.replace(/\/[^/]*$/, '') + "/src/flight-pane" },
+      { name: "flight-row", location: location.pathname.replace(/\/[^/]*$/, '') + "/src/flight-row" },
     ]
   };
   </script>
@@ -21,6 +21,6 @@
   
   <script src="//ajax.googleapis.com/ajax/libs/dojo/1.10.4/dojo/dojo.js"
           data-dojo-config="async: true"></script>
-  <script src="lib/app/index.js"></script>
+  <script src="src/app/index.js"></script>
 </body>
 </html>

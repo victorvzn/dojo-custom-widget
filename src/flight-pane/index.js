@@ -3,6 +3,7 @@
     "dojo",
     "dojo/dom",
     "dojo/html",
+    "dojo/dom-class",
     "dojo/dom-form",
     "dojo/dom-prop",
     "dojo/json",
@@ -18,7 +19,7 @@
     "dijit/_TemplatedMixin",
     "dojo/text!./template.html",
     "flight-row/index"
-], function(declare, dojo, dom, html, domForm, domProp, JSON, query, domConstruct, request, arrayUtil, parser, ready, on, topic, _WidgetBase, _TemplatedMixin, template, FlightRow) {
+], function(declare, dojo, dom, html, domClass, domForm, domProp, JSON, query, domConstruct, request, arrayUtil, parser, ready, on, topic, _WidgetBase, _TemplatedMixin, template, FlightRow) {
 
   topic.subscribe("refreshOrder", function(text){
     var orderRowNodes  = query('.FlightRowWidget .orderFlightRow'),
@@ -125,7 +126,22 @@
 
     save: function (event) {
       event.preventDefault();
-      console.log('Saved!');      
+      var messageEl = query('.alert')[0];
+      domClass.remove(messageEl, 'hidden');
+      html.set(messageEl, "Saved successfully!");
+
+      setTimeout(function () {
+        domClass.remove(messageEl, 'alert-success');
+        domClass.add(messageEl, 'alert-danger');
+        html.set(messageEl, "Sorry was a fake!");
+      
+        setTimeout(function () {
+          domClass.remove(messageEl, 'alert-danger');
+          domClass.add(messageEl, 'alert-success');
+          domClass.add(messageEl, 'hidden');
+        }, 2500);
+      }, 2500);
+      console.log('Saved successfully!');      
     }
 
   });
